@@ -44,9 +44,9 @@ export default function LoginScreen() {
         <View>
             <View style={{ margin: 50 }}>
                 <TouchableOpacity style={styles.btn} onPress={onPress}>
-                    <Link href="/(auth)/sign-in">
+                    {/* <Link href="/(auth)/sign-in"> */}
                         <Text style={{ textAlign: 'center', color: '#fff' }}>Let's Get Started</Text>
-                    </Link>
+                    {/* </Link> */}
                 </TouchableOpacity>
             </View>
         </View>
